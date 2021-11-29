@@ -10,7 +10,7 @@ export default class StarMapScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>¡Pantalla de mapa estelar!</Text>
+                <Text>StarMap Screen!</Text>
             </View>
         )
     }

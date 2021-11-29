@@ -10,7 +10,7 @@ export default class SpaceCraftScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>¡Pantalla de nave espacial!</Text>
+                <Text>SpaceCraft Screen!</Text>
             </View>
         )
     }
