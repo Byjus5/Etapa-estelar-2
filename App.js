@@ -13,13 +13,13 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={{
+      <Stack.Navigator initialRouteName="Principal" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="StarMap" component={StartMapScreen} />
-        <Stack.Screen name="DailyPic" component={DailyPicScreen} />
-        <Stack.Screen name="SpaceCraft" component={SpaceCraftScreen} />
+        <Stack.Screen name="Principal" component={HomeScreen} />
+        <Stack.Screen name="MapaEstelar" component={StartMapScreen} />
+        <Stack.Screen name="FotoDiaria" component={DailyPicScreen} />
+        <Stack.Screen name="NaveEspacial" component={SpaceCraftScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
